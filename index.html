@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <header class="bg-primary">
+      <div class="bg-dark my-container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="container-heading">
+              <h1>Students Grade Calculator</h1>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="input-feild">
+              <form class="form-group">
+                <div class="w-100">
+                  <input
+                    type="text"
+                    placeholder="Web Application"
+                    class="form-control"
+                    id="web"
+                  />
+                </div>
+
+                <div class="w-100">
+                  <input
+                    type="text"
+                    placeholder="IT Tools"
+                    class="form-control"
+                    id="it"
+                  />
+                </div>
+
+                <div class="w-100">
+                  <input
+                    type="text"
+                    placeholder="Maths"
+                    class="form-control"
+                    id="math"
+                  />
+                </div>
+
+                <div class="w-100">
+                  <input
+                    type="text"
+                    placeholder="English"
+                    class="form-control"
+                    id="eng"
+                  />
+                </div>
+
+                <div class="w-100">
+                  <input
+                    type="text"
+                    placeholder="Punjabi"
+                    class="form-control"
+                    id="pun"
+                  />
+                </div>
+                <div class="my-btn">
+                  <button onclick="return myfun()">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="result">
+          <span id="content"></span>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
